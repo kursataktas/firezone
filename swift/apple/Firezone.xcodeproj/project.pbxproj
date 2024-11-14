@@ -101,7 +101,6 @@
 
 /* Begin PBXFileReference section */
 		05833DFA28F73B070008FAB0 /* PacketTunnelProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketTunnelProvider.swift; sourceTree = "<group>"; };
-		05B6467B292C36140014A4D4 /* AuthenticationServiceStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationServiceStub.swift; sourceTree = "<group>"; };
 		05CF1C39290995DA00CF4755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05CF1CDE290B1A9000CF4755 /* FirezoneNetworkExtension_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FirezoneNetworkExtension_macOS.entitlements; sourceTree = "<group>"; };
 		05CF1CF0290B1CEE00CF4755 /* FirezoneNetworkExtensioniOS.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FirezoneNetworkExtensioniOS.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -167,14 +166,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0580451B29385C150080D1F0 /* Recovered References */ = {
-			isa = PBXGroup;
-			children = (
-				05B6467B292C36140014A4D4 /* AuthenticationServiceStub.swift */,
-			);
-			name = "Recovered References";
-			sourceTree = "<group>";
-		};
 		05833DF928F73B070008FAB0 /* FirezoneNetworkExtension */ = {
 			isa = PBXGroup;
 			children = (
@@ -223,7 +214,6 @@
 				05833DF928F73B070008FAB0 /* FirezoneNetworkExtension */,
 				8DCC021A28D512AC007E12D2 /* Products */,
 				8D3F90C328D64FAD00980124 /* Frameworks */,
-				0580451B29385C150080D1F0 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
