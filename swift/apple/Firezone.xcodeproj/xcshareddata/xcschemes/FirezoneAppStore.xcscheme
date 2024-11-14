@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8DCC021828D512AC007E12D2"
-               BuildableName = "FirezoneAppStore.app"
+               BuildableName = "Firezone.app"
                BlueprintName = "FirezoneAppStore"
                ReferencedContainer = "container:Firezone.xcodeproj">
             </BuildableReference>
@@ -66,7 +66,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8DCC021828D512AC007E12D2"
-            BuildableName = "FirezoneAppStore.app"
+            BuildableName = "Firezone.app"
             BlueprintName = "FirezoneAppStore"
             ReferencedContainer = "container:Firezone.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8DCC021828D512AC007E12D2"
-            BuildableName = "FirezoneAppStore.app"
+            BuildableName = "Firezone.app"
             BlueprintName = "FirezoneAppStore"
             ReferencedContainer = "container:Firezone.xcodeproj">
          </BuildableReference>
