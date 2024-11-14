@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8DCC021828D512AC007E12D2"
-               BuildableName = "Firezone.app"
-               BlueprintName = "Firezone"
+               BlueprintIdentifier = "8D20C32E2CE68B9600A9BDB1"
+               BuildableName = "FirezoneStandalone.app"
+               BlueprintName = "FirezoneStandalone"
                ReferencedContainer = "container:Firezone.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -61,16 +61,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8DCC021828D512AC007E12D2"
-            BuildableName = "Firezone.app"
-            BlueprintName = "Firezone"
-            ReferencedContainer = "container:Firezone.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -78,16 +68,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8DCC021828D512AC007E12D2"
-            BuildableName = "Firezone.app"
-            BlueprintName = "Firezone"
+            BlueprintIdentifier = "8D20C32E2CE68B9600A9BDB1"
+            BuildableName = "FirezoneStandalone.app"
+            BlueprintName = "FirezoneStandalone"
             ReferencedContainer = "container:Firezone.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
