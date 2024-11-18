@@ -10,7 +10,6 @@ use std::{
     path::{Path, PathBuf},
 };
 use tokio::task::spawn_blocking;
-use tracing_log::LogTracer;
 use tracing_subscriber::{layer::SubscriberExt, reload, Layer, Registry};
 
 /// If you don't store `Handles` in a variable, the file logger handle will drop immediately,
@@ -66,8 +65,9 @@ pub fn setup(directives: &str) -> Result<Handles> {
             "Failed to init vt100 terminal colors (expected in release builds and in CI)"
         );
     }
-    LogTracer::init()?;
+
     tracing::debug!(?log_path, "Log path");
+
     Ok(Handles { logger, reloader })
 }
 
