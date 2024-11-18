@@ -4939,7 +4939,7 @@ dependencies = [
 [[package]]
 name = "quinn-udp"
 version = "0.5.7"
-source = "git+https://github.com/quinn-rs/quinn?branch=main#a694602cbd719cb1738bdaa0ca1fa72028827c44"
+source = "git+https://github.com/thomaseizinger/quinn?branch=chore/no-gso-segment-length#9df74f1932e23c7cab2d711301632cac93a16564"
 dependencies = [
  "cfg_aliases",
  "libc",
