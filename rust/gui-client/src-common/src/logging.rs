@@ -10,7 +10,6 @@ use std::{
     path::{Path, PathBuf},
 };
 use tokio::task::spawn_blocking;
-use tracing::subscriber::set_global_default;
 use tracing_log::LogTracer;
 use tracing_subscriber::{layer::SubscriberExt, reload, Layer, Registry};
 
@@ -59,7 +58,8 @@ pub fn setup(directives: &str) -> Result<Handles> {
     let subscriber = Registry::default()
         .with(layer.with_filter(filter))
         .with(firezone_logging::sentry_layer());
-    set_global_default(subscriber)?;
+    firezone_logging::init(subscriber)?;
+
     if let Err(error) = output_vt100::try_init() {
         tracing::debug!(
             error = std_dyn_err(&error),
